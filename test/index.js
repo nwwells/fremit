@@ -1,0 +1,1 @@
+require('./fremit.test');

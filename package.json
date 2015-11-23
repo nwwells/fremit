@@ -4,7 +4,7 @@
   "description": "An FRP-style event-stream-to-collections interface toolkit",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "mocha test/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/nwwells/fremit/issues"
   },
-  "homepage": "https://github.com/nwwells/fremit#readme"
+  "homepage": "https://github.com/nwwells/fremit#readme",
+  "dependencies": {
+    "lodash": "3.10.1"
+  },
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "mocha": "2.3.4"
+  }
 }
