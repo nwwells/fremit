@@ -1,0 +1,25 @@
+{
+  "name": "fremit",
+  "version": "0.1.0",
+  "description": "An FRP-style event-stream-to-collections interface toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nwwells/fremit.git"
+  },
+  "keywords": [
+    "reactive",
+    "functional",
+    "frp",
+    "emit"
+  ],
+  "author": "Nathan Wells <nwwells@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwwells/fremit/issues"
+  },
+  "homepage": "https://github.com/nwwells/fremit#readme"
+}
